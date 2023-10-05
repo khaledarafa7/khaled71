@@ -1,0 +1,29 @@
+.client{
+    background-image: url(../images/s.jpg);
+    height: 450px;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 0;
+    padding-top: 0;
+}
+.client-item{
+    padding-top: 200px;
+width: 25%;
+    float: left;
+    text-align: center;
+
+}
+
+.number-item-title{
+    color: white;
+    font-size: 25px;
+margin-bottom: 10px;
+}
+.number-item-text{
+    color: white;
+    font-size: 20px;  
+    text-transform: capitalize;
+}
+.icon{
+    font-size: 60px; 
+}
