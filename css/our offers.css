@@ -1,0 +1,111 @@
+.oof{
+    height: 400;
+}
+.hoof{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 40;
+    font-weight: 800;
+    font-family: algerian;
+}
+.of1{
+    width: 400px;
+    height: 240px;
+    border: 4px solid black ;
+    margin: auto;
+    margin-top: 90px;
+    background-image: url(../images/dbdbdbd.jpg);
+    background-size: cover;
+}
+.hoof1{
+    /* text-align: center; */
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 3;
+    margin-left: 0%;
+    color:rgb(255, 255, 255);
+}
+.of2{
+    width: 400px;
+    height: 240px;
+    border: 4px solid black ;
+    margin-left: 100;
+    margin-top: -250;
+    background-image: url(../images/pl.webp);
+    background-size: cover;
+}
+.hoof2{
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 2;
+    color: rgb(0, 0, 0);
+}
+.of3{
+    width: 400px;
+    height: 240px;
+    border: 4px solid black ;
+    float: right;
+    margin-top: -250px;
+    margin-right: 100;
+    background-image: url(../images/bay1.jpg);
+    background-size: cover;
+}
+.hoof3{
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 20;
+    color: rgb(255, 255, 255);
+}
+.of4{
+    width: 400px;
+    height: 240px;
+    border: 4px solid rgb(0, 0, 0) ;
+    margin: auto;
+    margin-top: 75px;
+    background-image: url(../images/kylian-mbappe-french-footballer-soccer-ligue-1-club-3840x2160-7782.jpg);
+    background-size: cover;
+}
+.hoof4{
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 20;
+    color: rgb(0, 0, 0);
+}
+.of5{
+    width: 400px;
+    height: 240px;
+    border: 4px solid black ;
+    margin-left: 100;
+    margin-top: -250px;
+    background-image: url(../images/100-2522116-al-ahly-egypt-new-logo-2.jpeg);
+    background-size: cover;
+}
+.hoof5{
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 20;
+    color: rgb(0, 0, 0);
+}
+.of6{
+    width: 400px;
+    height: 240px;
+    border: 4px solid black ;
+    float: right;
+    margin-top: -248px;
+    margin-right: 100;
+    background-image: url(../images/GettyImages-1632006227.jpg);
+    background-size: cover;
+}
+.hoof6{
+    /* text-align: center; */
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 20;
+    color: rgb(255, 255, 255);
+margin-left: 0%;
+}
+

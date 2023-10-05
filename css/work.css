@@ -1,0 +1,221 @@
+.work{
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/17048551.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bs{
+    font-size: 50px;
+    font-family: algerian;
+    margin-top: 0;
+    margin-right: 30px;
+    color: rgb(255, 255, 255);
+    padding-top: 60px;
+    text-align: center   ;
+    font-weight: bolder;
+}
+.ars{
+    background-image: url(../images/ars1.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    border: 3px solid black;
+    margin: auto;
+    margin-top: 80px ;
+    position: relative;
+    overflow: hidden;
+}
+.united{
+    width: 250px;
+    height: 350px;
+    background-image: url(../images/manchester.jpg);
+    background-size: cover;
+    border: 3px solid black;
+    margin: auto;
+    margin-left:  200px; 
+    margin-top: -355px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.barca{
+    width: 250px;
+    height: 350px;
+    border: 3px solid black;
+    margin: auto;
+    background-image: url(../images/barca\ .jpg);  
+    background-size: cover;
+    margin-right:  200px; 
+    margin-top: -355px; 
+    float:right;
+    position: relative;
+    overflow: hidden;
+}
+.ajax{
+    width: 250px;
+    height: 350px;
+    background-image: url(../images/ajax1.jpg);
+    background-size: cover;
+    border: 3px solid black;
+    margin: auto;
+    margin-top: 80px ;
+    position: relative;
+    overflow: hidden;
+}
+.madrid{
+    width: 250px;
+    height: 350px;
+    border: 3px solid black;
+    background-image: url(../images/real\ madrid1.jpg);
+    background-size: cover;
+    margin: auto;
+    margin-left:  200px; 
+    margin-top: -355px;
+    position: relative;
+    overflow: hidden;
+}
+.acm{
+    width: 250px;
+    height: 350px;
+    border: 3px solid black;
+    background-image: url(../images/ccc.jpg);
+    background-size: cover;
+    margin: auto;
+    margin-right:  200px; 
+    margin-top: -355px; 
+    float:right;
+    position: relative;
+    overflow: hidden;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    float: left;
+   
+  }
+  .ars:hover .overlay {
+    opacity: 1;
+   
+  }
+  .united:hover .overlay {
+    opacity: 1;
+   
+  }
+  .ars:hover .clubn {
+    opacity: 1; 
+  }
+  .clubn{
+    color: white;
+    font-size: 20px; 
+    text-align: center;
+  text-transform:capitalize  ;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%  , -50%  );
+  opacity: 0; 
+  transition: opacity 0.5s ease; 
+  transition-delay: 0.2s;
+  } 
+  
+  
+  .united:hover .clubn {
+    opacity: 1; 
+  }
+  .barca:hover .overlay{
+    opacity: 1;
+  }
+  .barca:hover .clubn{
+    opacity: 1;
+  }
+  .acm:hover .clubn{
+    opacity: 1;
+  }
+  .acm:hover .overlay{
+    opacity: 1;
+  }
+  .ajax:hover .clubn{
+    opacity: 1;
+  }
+  .ajax:hover .overlay{
+    opacity: 1;
+  }
+  .madrid:hover .clubn {
+    opacity: 1;
+  }
+  .madrid:hover .overlay{
+    opacity: 1;
+  }
+  .search{
+    font-size: 22px;
+    color: blue;
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    transform: translate( -50%  , -50%  );
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+    transition-delay: 0.4s;
+  }
+  .edit{
+    font-size: 22px;
+    color: blue;    
+    position: absolute;
+    top: 65%;
+    left: 60%;
+    transform: translate( -50%  , -50%  );
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+    transition-delay: 0.4s;
+
+  }
+  .ars:hover .edit {
+    opacity: 1; 
+  }
+  .ars:hover .search {
+    opacity: 1; 
+  }
+  .united:hover .edit {
+    opacity: 1; 
+  }
+  .united:hover .search {
+    opacity: 1; 
+  }
+  .ajax:hover .edit{
+    opacity: 1;
+  }
+  .ajax:hover .search{
+    opacity: 1;
+  }
+
+  .madrid:hover .edit{
+    opacity: 1;
+  }
+  .madrid:hover .search{
+    opacity: 1;
+  }
+  .barca:hover .edit{
+    opacity: 1;
+  }
+  .barca:hover .search{
+    opacity: 1;
+  }
+  .acm:hover .edit{
+    opacity: 1;
+  }
+  .acm:hover .search{
+    opacity: 1;
+  }
